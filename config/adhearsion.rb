@@ -69,5 +69,6 @@ Adhearsion.router do
   route 'default' do
     answer
     speak "Hello and welcome to Adhearsion Conf!"
+    hangup
   end
 end
